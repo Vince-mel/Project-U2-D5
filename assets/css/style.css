@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+#navbar {
+    position: sticky;
+    top: 0;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffc017;
+    transition: background-color 0.5s ease;
+    z-index: 1;
+    
+    font-family: 'Spectral', serif;
+    border-bottom: 1px solid #191919;
+}
+
+#navlist {
+    display: flex;
+    list-style-type: none;
+   
+    display: flex;
+  gap: 20px;
+  
+}
+
+#right-section {
+    display: flex;
+    align-items: center;
+  }
+
+#navlist li {
+    margin-right: 20px;
+    justify-content:flex-end ;
+    
+}
+#navbutton {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: #191919;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc017;
+
+    font-family: 'Spectral', serif;
+   
+}
+
+.svg-effect {
+    width: 468px;
+    height: 324px;
+}
+
+#text-h {
+    text-align: center;
+    align-self: center;
+    padding-left: 5em;
+}
+
+#text-h h1 {
+    font-weight: bold;
+    font-size: 5.3em;
+}
+
+#text-h h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#text-h button {
+    border: 1px solid #191919;
+    border-radius: 30px;
+    background-color: #191919;
+    color: white;
+    margin-right: 23em;
+    
+    border-left: 8em;
+    width: 11em;
+    height: 2em;
+}
+
+/* Trading */
+.trading_box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.trade {
+	width: 408px;
+	height: 101px;
+}
+#trading {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.trading-title {
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+/* Trade card */
+.data {
+	margin-left: 20px;
+}
+.trade-card {
+	display: flex;
+}
+.number {
+	font-size: 2em;
+	font-weight: bold;
+	color: gray;
+	opacity: 0.2;
+}
+.user {
+	display: flex;
+	align-items: center;
+}
+.userImg img {
+	width: 20px;
+	height: 20px;
+    border-radius:50px;
+}
+.user span {
+	margin-left: 5px;
+}
+p.title {
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: 13px;
+}
+
+.datePosted {
+	opacity: 0.3;
+}
+
+/* News */
+
+article {
+	display: flex;
+	display: flex;
+	justify-content: center;
+
+	margin-top: 4em;
+}
+.allNews {
+	display: flex;
+	width: 50%;
+	margin-bottom: 2em;
+}
+.news_card {
+	display: flex;
+	flex-direction: column;
+	width: 475px;
+}
+.newImg img {
+	width: 200px;
+	height: 134px;
+}
+aside {
+	width: 20%;
+	display: flex;
+	position: relative;
+	position: sticky;
+	top: 200px;
+}
+
+.dataNew2 {
+	display: flex;
+	justify-content: space-between;
+}
+.dataNew2 span img {
+	margin-right: 20px;
+}
+
+.news .user span {
+	font-weight: 500;
+}
+.user {
+	margin-bottom: 10px;
+}
+p.title2 {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 7px;
+}
+
+.news_card.news p:last-child {
+	color: rgb(147, 147, 147);
+	margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TREND ARTICLE
+#container-art {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+.article {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.article h4 {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .article img {
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 0em;
+    margin-left: 1em;
+  }
+ 
+ .article  h4 span {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5em;
+
+  }
+  
+  .article-1 .top-row {
+    display: flex;
+    width: 299px;
+    height: 105px;
+    border: 1px solid black;
+}
+
+.top-row p {
+    margin-left: 1em;
+    font-weight: 600;
+    margin-top: 0.4em;
+} */
+
+.top-row span {
+    margin-left: 0.7em;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+.text-group {
+    margin-left: 4.5em;
+}
+
+.t-trend {
+    font-weight: bold;
+    margin-top: 0.3em;
+}
+.d-trend {
+    color: darkgrey;
+}
+
+
+/* TREND ARTICLE */
